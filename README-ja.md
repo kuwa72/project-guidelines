@@ -481,7 +481,7 @@
 * クライアントサイドのconsole ログをプロダクション環境で出力するのは避けましょう。
 
     _Why:_
-    > ビルどプロセスを通してConsoleログを取り除くことができます(すべきです)が、コードスタイルチェックが吐き出すconsole logについてのwarningの情報を確認しましょう。
+    > ビルドプロセスを通してConsoleログを取り除くことができます(すべきです)が、コードスタイルチェックが吐き出すconsole logについてのwarningの情報を確認しましょう。
 
 * プロダクションのログは読みやすいように出力しましょう。理想的にはプロダクションモードで使われているロギングライブラリを使いましょう([winston](https://github.com/winstonjs/winston) もしくは
 [node-bunyan](https://github.com/trentm/node-bunyan)のようなものがあります。)
